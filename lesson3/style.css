@@ -1,0 +1,42 @@
+
+        .calendar-container {
+            background: white;
+            padding: 10px;
+            border: 1px solid #000;
+            display: inline-block;
+        }
+
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            width: 60px;
+            height: 60px;
+            padding: 5px;
+        }
+
+
+        .month-title {
+            font-weight: bold;
+            font-size: 32px;
+            padding: 10px 0;
+        }
+
+        .weekday {
+            font-weight: bold;
+            font-size: 20px;
+            padding: 10px 0;
+        }
+
+        .red-text {
+            color: #cc0000;
+        }
+
+
+        .empty-cell {
+            border: none;
+        }
